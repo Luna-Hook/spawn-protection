@@ -1,0 +1,16 @@
+name: SpawnProtection
+version: '1.0.0'
+main: dev.lunahook.spawnprotection.SpawnProtectionPlugin
+api-version: '1.21'
+author: Luna Hook
+description: Keeps active combat out of protected spawn regions.
+depend: [WorldGuard]
+commands:
+  spawnguard:
+    description: SpawnProtection commands.
+    aliases: [spawnprotection]
+permissions:
+  spawnprotection.admin:
+    default: op
+  spawnprotection.bypass:
+    default: op

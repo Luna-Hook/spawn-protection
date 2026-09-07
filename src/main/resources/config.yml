@@ -1,0 +1,13 @@
+# v1.0.0
+protection:
+  world: world
+  region: spawn
+  combat-seconds: 15
+  notify-cooldown-seconds: 2
+  block-teleports-into-region: true
+
+messages:
+  prefix: '&6&lSpawn &8» &r'
+  entry-denied: '&cYou cannot enter spawn while in combat. &7Wait &f{seconds}s&7.'
+  reloaded: '&aSpawn protection configuration reloaded.'
+  no-permission: '&cYou do not have permission to use that command.'
